@@ -1,8 +1,0 @@
-{
-    "entry": "./mod.js",
-    "name": "Throwback",
-    "description": "Return to your previous location after following a map marker.",
-    "version": "1.0.0",
-    "id": "throwback",
-    "doesNotAffectSavegame": true
-}
