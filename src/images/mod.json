@@ -1,0 +1,10 @@
+{
+    "entry": "./index.ts",
+    "name": "Images",
+    "description": "Fix the W+ virtual combiner",
+    "version": "1.0.0",
+    "id": "images",
+    "author": "emanresu",
+    "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "doesNotAffectSavegame": true
+}

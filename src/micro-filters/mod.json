@@ -1,0 +1,7 @@
+{
+    "entry": "./index.ts",
+    "name": "Micro Filters",
+    "description": "Adds four different 1x1 filters with different purposes",
+    "version": "1.0.0",
+    "id": "micro-filters"
+}

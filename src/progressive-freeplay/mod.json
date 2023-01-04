@@ -1,0 +1,7 @@
+{
+    "entry": "./index.ts",
+    "name": " Progressive Freeplay",
+    "description": "Try to take over the world!",
+    "version": "1.0.0",
+    "id": "progressive-freeplay"
+}

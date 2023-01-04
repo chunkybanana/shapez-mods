@@ -1,0 +1,7 @@
+-   [x] compat testing with ME / similar
+-   [ ] open-source
+-   [x] Add ways for mod systems to disable others
+-   [ ] SI system? (deferred)
+-   [x] Test multiple mods
+-   [x] Write docs
+-   [x] Add example mod(s)

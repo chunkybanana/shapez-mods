@@ -1,0 +1,7 @@
+{
+    "entry": "./index.ts",
+    "name": "Achievements Patch",
+    "description": "Adds back all the vanilla achievements, and more!",
+    "version": "1.0.0",
+    "id": "achievements-patch"
+}

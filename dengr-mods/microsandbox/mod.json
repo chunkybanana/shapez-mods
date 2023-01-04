@@ -1,0 +1,8 @@
+{
+    "entry": "./index.js",
+    "id": "microsandbox",
+    "name": "\u00b5Sandbox",
+    "description": "Small but extensible sandbox mod, supports Packaging and Fill Storages out of the box.",
+    "version": "1.6.1",
+    "doesNotAffectSavegame": true
+}

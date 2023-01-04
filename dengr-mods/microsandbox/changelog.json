@@ -1,0 +1,17 @@
+{
+    "1.6.1": ["Support for UI Keeper"],
+    "1.6.0": ["Built-in button row for add-ons to use"],
+    "1.5.4": ["New design for shapez 1.5.2+"],
+    "1.5.3": ["Fixed Mod Extras API causing the mod not to load"],
+    "1.5.2": ["Fixed issues related to Mod Extras 0.4.0-beta"],
+    "1.5.1": ["Support for automatic updates"],
+    "1.5.0": [
+        "Ability to unlock all rewards regardless of the level",
+        "Mod Extras 0.3.0 (or higher) is now required for advanced features"
+    ],
+    "1.4.2": ["Fixed conflict with Packaging and Fill Storages"],
+    "1.4.1": [
+        "Rebuilt with new build system",
+        "Mod Extras metadata is now provided"
+    ]
+}

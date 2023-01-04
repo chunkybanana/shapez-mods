@@ -1,0 +1,87 @@
+Reduce, Reuse, Recycle
+Beat level 12 without using trash
+<no symbol over trash shapes> ✅
+
+You will not go to space today
+Produce something that is not quite the rocket shape
+<flattened rocket> ✅
+
+Do you enjoy pain?
+Beat level 7 without using tunnels
+<no symbol over tunnels> ✅
+
+Belts go brrrr
+Place 10000 belts
+<belt, 10000> ✅
+
+Environmentalist
+Beat level 12 without destroying buildings
+<no symbol over trash>✅
+
+It's over 9000
+Beat level 9000
+<9000 in same font as levels>✅
+
+It's an improvement
+Beat a freeplay level in under 120 seconds
+<stopwatch 120, some colour>✅
+
+I am speed
+Beat a freeplay level in under 60 seconds
+<stopwatch 60, some colour>✅
+
+Automation Master
+Beat a freeplay level in under 30 seconds
+<stopwatch 30, some colour>✅
+
+The forbidden layer
+Attempt to create a shape with 5 or more layers
+<5 layers shape with X over layer 5>✅
+
+True perfectionist
+Have a completely empty factory at any point after level 26
+✅
+
+Unbalanced
+Beat level 6 without placing balancers
+<no symbol over balancer>✅
+
+Flappy Bird
+Produce the Bird shape
+<bird>✅
+
+The other cutter
+Produce the Scissors shape
+<scissors shape>✅
+
+Emperor of inefficiency
+Don't use double painters until level 21
+<no symbol, double painter>✅
+
+I've finally used it
+Spend 1 million blueprints
+<copypasta, 1m>✅
+
+True hoarder
+Store 200,000 shapes in storages at once
+<storage, 200000>✅
+
+It's even slower
+Reach and complete level 12 without upgrading anything.
+<no symbol over upgrades>✅
+
+A lot early?
+Produce the rocket shape before the logo.
+<rocket, winking face>✅
+
+Belts go brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+Upgrade belts to level 15✅
+
+Do it yourself
+Beat level 27 manually, without placing wires
+<no symbol over gear>✅
+
+
+More stuff:
+- Upside-down blueprint
+- lvl X without blueprints

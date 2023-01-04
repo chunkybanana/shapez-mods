@@ -1,0 +1,254 @@
+button,
+.increasedClickArea {
+    position: relative;
+}
+button::after,
+.increasedClickArea::after {
+    content: "";
+    position: absolute;
+    top: D(-15px);
+    bottom: D(-15px);
+    left: D(-15px);
+    right: D(-15px);
+}
+#state_AchievementsState .mainContent {
+    display: flex;
+    flex-direction: column;
+}
+#state_AchievementsState > .headerBar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+#state_AchievementsState > .headerBar > h1 {
+    justify-self: start;
+}
+#state_AchievementsState .noAchiev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+#state_AchievementsState .incomplete {
+    opacity: 0.2;
+}
+#state_AchievementsState .achievStats {
+    font-size: calc(13px * var(--ui-scale));
+    line-height: calc(17px * var(--ui-scale));
+    font-weight: 400;
+    font-family: "GameFont", sans-serif;
+    letter-spacing: 0.04em;
+    color: #7d808a;
+}
+#state_AchievementsState .achievStats.noAchievements {
+    width: calc(400px * var(--ui-scale));
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(16px * var(--ui-scale));
+    line-height: calc(21px * var(--ui-scale));
+    font-weight: 400;
+    font-family: "GameFont", sans-serif;
+    letter-spacing: 0.04em;
+    margin-top: calc(100px * var(--ui-scale));
+    color: #a5a7ae;
+}
+#state_AchievementsState .achievStats.noAchievements button {
+    margin-top: calc(10px * var(--ui-scale));
+    padding: calc(10px * var(--ui-scale)) calc(20px * var(--ui-scale));
+}
+#state_AchievementsState .achievStats.noAchievements::before {
+    margin-bottom: calc(15px * var(--ui-scale));
+    content: "";
+    width: calc(50px * var(--ui-scale));
+    height: calc(50px * var(--ui-scale));
+    background-position: center center;
+    background-size: contain;
+    opacity: 0.2;
+}
+#state_AchievementsState .achievStats.noAchievements::before {
+    background-image: uiResource("res/ui/icons/mods.png") !important;
+}
+.achievList {
+    margin-top: calc(10px * var(--ui-scale));
+    overflow-y: scroll;
+    pointer-events: all;
+    padding-right: calc(5px * var(--ui-scale));
+    flex-grow: 1;
+}
+.achiev {
+    border-radius: calc(2px * var(--ui-scale));
+    background: #eeeff4;
+    margin-bottom: calc(4px * var(--ui-scale));
+    padding: calc(7px * var(--ui-scale)) calc(10px * var(--ui-scale));
+    grid-gap: calc(15px * var(--ui-scale));
+    display: grid;
+    grid-template-columns: calc(48px * var(--ui-scale)) 0.85fr 0.15fr;
+}
+html[data-theme="dark"] #state_AchievementsState .achievList .achiev,
+#state_AchievementsState .achievList .achiev[data-theme="dark"] {
+    background: #3c404a;
+}
+.checkbox {
+    align-self: center;
+    justify-self: center;
+}
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+}
+.mainInfo .description {
+    font-size: calc(13px * var(--ui-scale));
+    line-height: calc(17px * var(--ui-scale));
+    font-weight: 400;
+    font-family: "GameFont", sans-serif;
+    letter-spacing: 0.04em;
+    margin-top: calc(5px * var(--ui-scale));
+    color: #7d808a;
+}
+.noticesDiv {
+    z-index: 900;
+    position: absolute;
+    bottom: 1.2em;
+    right: 1.2em;
+    max-width: 24em;
+    width: 30%;
+    height: 8em;
+}
+
+.achiev img {
+    width: calc(48px * var(--ui-scale));
+    height: calc(48px * var(--ui-scale));
+    border-radius: calc(8px * var(--ui-scale));
+    display: inline-block;
+}
+/* frick specificity */
+html body #ingame_HUD_Notifications .notification.achievement-notification {
+    animation: longerNotificationAnimation 6s /* replaced in code */ ease-in-out !important;
+}
+.achievement-notification img {
+    height: calc(var(--ui-scale) * 20px);
+    display: inline-block;
+    margin: calc(var(--ui-scale) * -4px) 0px calc(var(--ui-scale) * -6px)
+        calc(var(--ui-scale) * -6px) !important;
+    border-radius: calc(var(--ui-scale) * 2px);
+}
+
+@keyframes longerNotificationAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    87% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    95% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+.achievementTab {
+    cursor: pointer !important;
+    border-top-left-radius: calc(5px * var(--ui-scale)); /* TODO: ui-scale */
+    border-top-right-radius: calc(5px * var(--ui-scale)); /* TODO: ui-scale */
+    padding: calc(5px * var(--ui-scale)) calc(10px * var(--ui-scale))
+        calc(8px * var(--ui-scale)) calc(10px * var(--ui-scale));
+    background-color: white; /* TODO: theme */
+    z-index: 8;
+    pointer-events: auto;
+    line-height: calc(20px * var(--ui-scale));
+    height: calc(20px * var(--ui-scale)); /* adjust */
+}
+
+.achievementTab.activeTab {
+    background-color: #f2f2f2; /* TODO: theme */
+}
+
+.achievementTab:hover {
+    background-color: #f0f0f0; /* TODO: theme */
+    cursor: pointer !important;
+}
+
+html[data-theme="dark"] .achievementTab {
+    background-color: #4f5360;
+    color: #e2e0db;
+}
+
+html[data-theme="dark"] .achievementTab.activeTab {
+    background-color: #484c58;
+}
+
+.achievementTab.disabledTab {
+}
+.achievementTab.disabledTab::after {
+    content: " ×";
+    color: red;
+    font-size: 1.4em;
+}
+
+.achievementTabContent.ach-visible {
+    display: inline-block;
+}
+
+.achievementTabContent {
+    display: none;
+}
+
+html[data-theme="dark"] .achiev {
+    background-color: #535866;
+    color: #eeeff4;
+}
+
+html[data-theme="dark"] .description {
+    color: #e2e0db;
+}
+
+.tabs {
+    display: flex;
+    height: min-content;
+}
+
+#state_AchievementsState > .container > .content {
+    border-top-left-radius: 0px !important; /* line up with tabs */
+}
+
+#state_AchievementsState {
+    grid-template-rows: min-content min-content 1fr;
+}
+
+.progress-bar {
+    position: relative;
+}
+
+.progress-bar-inner {
+    height: calc(48px * var(--ui-scale));
+    background-color: #66bb6a;
+    border-radius: calc(var(--ui-scale) * 5px);
+}
+
+.progress-bar-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(20px * var(--ui-scale));
+    font-weight: 600;
+}
+
+h2 {
+    margin-bottom: calc(8px * var(--ui-scale));
+}

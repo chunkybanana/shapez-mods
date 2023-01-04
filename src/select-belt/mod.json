@@ -1,0 +1,9 @@
+{
+    "entry": "./index.ts",
+    "name": "Select Belt",
+    "description": "Allows you to select the connected belt or wire",
+    "version": "1.0.0",
+    "id": "select-belt",
+    "author": "emanresu",
+    "doesNotAffectSavegame": true
+}

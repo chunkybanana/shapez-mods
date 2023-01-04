@@ -1,0 +1,9 @@
+{
+    "entry": "./index.ts",
+    "name": "Shapez Industries Floating Freeplay",
+    "description": "Floating Freeplay for Shapez Industries",
+    "version": "1.0.0",
+    "id": "si-floating-freeplay",
+    "author": "emanresu",
+    "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}

@@ -1,0 +1,12 @@
+{
+    "entry": "index.ts",
+    "id": "achievements-port",
+    "version": "1.0.0",
+    "name": "Achievements Library v2",
+    "description": "Allows mods to easily make achievement systems that don't interfere with other mods.",
+    "website": "",
+    "settings": {
+        "completedAchievements": []
+    },
+    "disabled": false
+}
