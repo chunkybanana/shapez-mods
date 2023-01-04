@@ -29,14 +29,14 @@ There are several ways you can access the library's API:
 -   Using the MODS variable:
 
 ```js
-MODS.mods.find(mod => mod.metadata.id == "achievements-port")`
+MODS.mods.find(mod => mod.metadata.id == "emanresu:achievements-port")`
 ```
 
 -   Using the [Mod Extras](https://skimnerphi.net/mods/mod_extras/) `require`
     API (requires ME, untested):
 
 ```js
-achievementsLib = ModExtras.require("achievements-port");
+achievementsLib = ModExtras.require("emanresu:achievements-port");
 ```
 
 ---
