@@ -36,7 +36,7 @@ MODS.mods.find(mod => mod.metadata.id == "achievements-port")`
     API (requires ME, untested):
 
 ```js
-achievementsLib = require("achievements-port");
+achievementsLib = ModExtras.require("achievements-port");
 ```
 
 ---
