@@ -3,6 +3,8 @@
 A fork of [dengr1065's](https://github.com/dengr1065/shapez-mods) shapez modding
 environment, with all my mods.
 
+---
+
 A personalized environment for [shapez] mod development with [Mod
 Extras][mod-extras] support. Made possible thanks to [webpack] and a bunch of
 random hacks.
